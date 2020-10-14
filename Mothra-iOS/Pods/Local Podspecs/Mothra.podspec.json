@@ -1,0 +1,77 @@
+{
+  "name": "Mothra",
+  "version": "1.0.0",
+  "summary": "基础框架Swift版",
+  "description": "基础库集合Swift版",
+  "homepage": "http://www.emucoo.com",
+  "license": "MIT",
+  "authors": {
+    "kurokyfan": "kuroky@emucoo.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "ssh://git@192.168.16.172:7999/em/mothra.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "Classes/*.swift",
+  "dependencies": {
+    "IQKeyboardManagerSwift": [
+      "6.5.5"
+    ],
+    "SnapKit": [
+      "5.0.1"
+    ],
+    "Hue": [
+      "5.0.0"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Image",
+      "source_files": "Classes/Image/*.swift",
+      "dependencies": {
+        "Kingfisher": [
+          "5.13.2"
+        ]
+      }
+    },
+    {
+      "name": "HUD",
+      "source_files": "Classes/HUD/*.swift",
+      "dependencies": {
+        "PKHUD": [
+          "5.3.0"
+        ]
+      }
+    },
+    {
+      "name": "Cache",
+      "source_files": "Classes/Cache/*.swift",
+      "dependencies": {
+        "EasyStash": [
+          "1.1.4"
+        ]
+      }
+    },
+    {
+      "name": "Log",
+      "source_files": "Classes/Log/*.swift",
+      "dependencies": {
+        "XCGLogger": [
+          "7.0.1"
+        ]
+      }
+    },
+    {
+      "name": "Network",
+      "source_files": "Classes/Network/*.swift",
+      "dependencies": {
+        "Moya": [
+          "14.0.0"
+        ]
+      }
+    }
+  ]
+}

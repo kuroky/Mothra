@@ -1,0 +1,6 @@
+framework module Mothra {
+  umbrella header "Mothra-umbrella.h"
+
+  export *
+  module * { export * }
+}

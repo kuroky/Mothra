@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B905D6324344A1800701A3B /* omemucoonet.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5B905D6124344A1800701A3B /* omemucoonet.cer */; };
+		5B905D6424344A1800701A3B /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B905D6224344A1800701A3B /* NetworkViewController.swift */; };
+		5B905D6C243496A700701A3B /* BaseFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B905D6B243496A700701A3B /* BaseFetcher.swift */; };
+		5B905D6E24349C5D00701A3B /* FetcheMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B905D6D24349C5D00701A3B /* FetcheMethod.swift */; };
+		5B905D7024349FB800701A3B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B905D6F24349FB800701A3B /* Default-568h@2x.png */; };
+		5BA8CD4324370D92009A323D /* UtilsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8CD4224370D92009A323D /* UtilsViewController.swift */; };
+		5BAB75562433107700856BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB75552433107700856BBC /* AppDelegate.swift */; };
+		5BAB75582433107700856BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB75572433107700856BBC /* SceneDelegate.swift */; };
+		5BAB755A2433107700856BBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB75592433107700856BBC /* ViewController.swift */; };
+		5BAB755F2433107D00856BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAB755E2433107D00856BBC /* Assets.xcassets */; };
+		5BAB75622433107D00856BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAB75602433107D00856BBC /* LaunchScreen.storyboard */; };
+		5BAB756A2433284B00856BBC /* LaunchConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB75692433284B00856BBC /* LaunchConfig.swift */; };
+		5BAB75D5243342D700856BBC /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB75C9243342D600856BBC /* BoardViewController.swift */; };
+		5BAB75D6243342D700856BBC /* BoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BAB75CA243342D600856BBC /* BoardViewController.xib */; };
+		5BAB75D7243342D700856BBC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB75CC243342D600856BBC /* User.swift */; };
+		5BAB75D8243342D700856BBC /* CacheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB75CD243342D600856BBC /* CacheViewController.swift */; };
+		5BAB75D9243342D700856BBC /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB75CF243342D700856BBC /* ImageDetailViewController.swift */; };
+		5BAB75DA243342D700856BBC /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB75D0243342D700856BBC /* ImageViewController.swift */; };
+		5BAB75DB243342D700856BBC /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BAB75D1243342D700856BBC /* ImageViewController.xib */; };
+		5BAB75DC243342D700856BBC /* ImageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB75D2243342D700856BBC /* ImageListViewController.swift */; };
+		5BAB75DD243342D700856BBC /* HUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB75D4243342D700856BBC /* HUDViewController.swift */; };
+		99392C896F3A822DC1634311 /* Pods_Mothra_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065BE644F2DA7BD871488C1F /* Pods_Mothra_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		065BE644F2DA7BD871488C1F /* Pods_Mothra_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mothra_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B905D6124344A1800701A3B /* omemucoonet.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = omemucoonet.cer; sourceTree = "<group>"; };
+		5B905D6224344A1800701A3B /* NetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		5B905D6B243496A700701A3B /* BaseFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFetcher.swift; sourceTree = "<group>"; };
+		5B905D6D24349C5D00701A3B /* FetcheMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetcheMethod.swift; sourceTree = "<group>"; };
+		5B905D6F24349FB800701A3B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5BA8CD4224370D92009A323D /* UtilsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsViewController.swift; sourceTree = "<group>"; };
+		5BAB75522433107700856BBC /* Mothra-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mothra-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAB75552433107700856BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BAB75572433107700856BBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5BAB75592433107700856BBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BAB755E2433107D00856BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BAB75612433107D00856BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BAB75632433107D00856BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BAB75692433284B00856BBC /* LaunchConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchConfig.swift; sourceTree = "<group>"; };
+		5BAB75C9243342D600856BBC /* BoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		5BAB75CA243342D600856BBC /* BoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoardViewController.xib; sourceTree = "<group>"; };
+		5BAB75CC243342D600856BBC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5BAB75CD243342D600856BBC /* CacheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheViewController.swift; sourceTree = "<group>"; };
+		5BAB75CF243342D700856BBC /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		5BAB75D0243342D700856BBC /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		5BAB75D1243342D700856BBC /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		5BAB75D2243342D700856BBC /* ImageListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageListViewController.swift; sourceTree = "<group>"; };
+		5BAB75D4243342D700856BBC /* HUDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDViewController.swift; sourceTree = "<group>"; };
+		9151CEF42E4C69A3673ADF9F /* Pods-Mothra-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mothra-iOS.release.xcconfig"; path = "Target Support Files/Pods-Mothra-iOS/Pods-Mothra-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		AB39E180482706367F6DD1E8 /* Pods-Mothra-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mothra-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Mothra-iOS/Pods-Mothra-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BAB754F2433107700856BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99392C896F3A822DC1634311 /* Pods_Mothra_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E0AED17EDB2AC26CD054B27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				065BE644F2DA7BD871488C1F /* Pods_Mothra_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3747319B5644ECDE2A10F086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB39E180482706367F6DD1E8 /* Pods-Mothra-iOS.debug.xcconfig */,
+				9151CEF42E4C69A3673ADF9F /* Pods-Mothra-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B905D6024344A1800701A3B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5B905D6124344A1800701A3B /* omemucoonet.cer */,
+				5B905D6224344A1800701A3B /* NetworkViewController.swift */,
+			);
+			name = Network;
+			path = "Mothra-iOS/Classes/Network";
+			sourceTree = SOURCE_ROOT;
+		};
+		5B905D672434961800701A3B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5BA8CD4124370D84009A323D /* Utils */,
+				5B905D6024344A1800701A3B /* Network */,
+				5BAB75CB243342D600856BBC /* Cache */,
+				5BAB75D3243342D700856BBC /* HUD */,
+				5BAB75CE243342D600856BBC /* Image */,
+				5BAB75C8243342D600856BBC /* IQBoard */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5B905D682434961E00701A3B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5B905D692434963A00701A3B /* Network */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5B905D692434963A00701A3B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5B905D6D24349C5D00701A3B /* FetcheMethod.swift */,
+				5B905D6B243496A700701A3B /* BaseFetcher.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5B905D6A2434964C00701A3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BAB755E2433107D00856BBC /* Assets.xcassets */,
+				5BAB75602433107D00856BBC /* LaunchScreen.storyboard */,
+				5BAB75632433107D00856BBC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BA8CD4124370D84009A323D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5BA8CD4224370D92009A323D /* UtilsViewController.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5BAB75492433107700856BBC = {
+			isa = PBXGroup;
+			children = (
+				5B905D6F24349FB800701A3B /* Default-568h@2x.png */,
+				5BAB75542433107700856BBC /* Mothra-iOS */,
+				5BAB75532433107700856BBC /* Products */,
+				3747319B5644ECDE2A10F086 /* Pods */,
+				2E0AED17EDB2AC26CD054B27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BAB75532433107700856BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BAB75522433107700856BBC /* Mothra-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BAB75542433107700856BBC /* Mothra-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B905D672434961800701A3B /* Classes */,
+				5BAB75552433107700856BBC /* AppDelegate.swift */,
+				5BAB75692433284B00856BBC /* LaunchConfig.swift */,
+				5BAB75572433107700856BBC /* SceneDelegate.swift */,
+				5BAB75592433107700856BBC /* ViewController.swift */,
+				5B905D682434961E00701A3B /* Utils */,
+				5B905D6A2434964C00701A3B /* Resources */,
+			);
+			path = "Mothra-iOS";
+			sourceTree = "<group>";
+		};
+		5BAB75C8243342D600856BBC /* IQBoard */ = {
+			isa = PBXGroup;
+			children = (
+				5BAB75C9243342D600856BBC /* BoardViewController.swift */,
+				5BAB75CA243342D600856BBC /* BoardViewController.xib */,
+			);
+			name = IQBoard;
+			path = "Mothra-iOS/Classes/IQBoard";
+			sourceTree = SOURCE_ROOT;
+		};
+		5BAB75CB243342D600856BBC /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				5BAB75CC243342D600856BBC /* User.swift */,
+				5BAB75CD243342D600856BBC /* CacheViewController.swift */,
+			);
+			name = Cache;
+			path = "Mothra-iOS/Classes/Cache";
+			sourceTree = SOURCE_ROOT;
+		};
+		5BAB75CE243342D600856BBC /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				5BAB75CF243342D700856BBC /* ImageDetailViewController.swift */,
+				5BAB75D0243342D700856BBC /* ImageViewController.swift */,
+				5BAB75D1243342D700856BBC /* ImageViewController.xib */,
+				5BAB75D2243342D700856BBC /* ImageListViewController.swift */,
+			);
+			name = Image;
+			path = "Mothra-iOS/Classes/Image";
+			sourceTree = SOURCE_ROOT;
+		};
+		5BAB75D3243342D700856BBC /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				5BAB75D4243342D700856BBC /* HUDViewController.swift */,
+			);
+			name = HUD;
+			path = "Mothra-iOS/Classes/HUD";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BAB75512433107700856BBC /* Mothra-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BAB75662433107D00856BBC /* Build configuration list for PBXNativeTarget "Mothra-iOS" */;
+			buildPhases = (
+				8FFE27B2C0C8FBE669EF175B /* [CP] Check Pods Manifest.lock */,
+				5BAB754E2433107700856BBC /* Sources */,
+				5BAB754F2433107700856BBC /* Frameworks */,
+				5BAB75502433107700856BBC /* Resources */,
+				77F7B52E12843A2A31258681 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mothra-iOS";
+			productName = "Mothra-iOS";
+			productReference = 5BAB75522433107700856BBC /* Mothra-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BAB754A2433107700856BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Emucoo;
+				TargetAttributes = {
+					5BAB75512433107700856BBC = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 5BAB754D2433107700856BBC /* Build configuration list for PBXProject "Mothra-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BAB75492433107700856BBC;
+			productRefGroup = 5BAB75532433107700856BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BAB75512433107700856BBC /* Mothra-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BAB75502433107700856BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAB75622433107D00856BBC /* LaunchScreen.storyboard in Resources */,
+				5BAB75D6243342D700856BBC /* BoardViewController.xib in Resources */,
+				5BAB75DB243342D700856BBC /* ImageViewController.xib in Resources */,
+				5B905D6324344A1800701A3B /* omemucoonet.cer in Resources */,
+				5BAB755F2433107D00856BBC /* Assets.xcassets in Resources */,
+				5B905D7024349FB800701A3B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77F7B52E12843A2A31258681 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mothra-iOS/Pods-Mothra-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mothra-iOS/Pods-Mothra-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mothra-iOS/Pods-Mothra-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FFE27B2C0C8FBE669EF175B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mothra-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BAB754E2433107700856BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAB75DC243342D700856BBC /* ImageListViewController.swift in Sources */,
+				5BAB755A2433107700856BBC /* ViewController.swift in Sources */,
+				5BAB75DA243342D700856BBC /* ImageViewController.swift in Sources */,
+				5B905D6E24349C5D00701A3B /* FetcheMethod.swift in Sources */,
+				5BAB75562433107700856BBC /* AppDelegate.swift in Sources */,
+				5BAB75D7243342D700856BBC /* User.swift in Sources */,
+				5BAB756A2433284B00856BBC /* LaunchConfig.swift in Sources */,
+				5BAB75582433107700856BBC /* SceneDelegate.swift in Sources */,
+				5B905D6424344A1800701A3B /* NetworkViewController.swift in Sources */,
+				5BAB75DD243342D700856BBC /* HUDViewController.swift in Sources */,
+				5B905D6C243496A700701A3B /* BaseFetcher.swift in Sources */,
+				5BAB75D8243342D700856BBC /* CacheViewController.swift in Sources */,
+				5BAB75D5243342D700856BBC /* BoardViewController.swift in Sources */,
+				5BAB75D9243342D700856BBC /* ImageDetailViewController.swift in Sources */,
+				5BA8CD4324370D92009A323D /* UtilsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BAB75602433107D00856BBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BAB75612433107D00856BBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BAB75642433107D00856BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BAB75652433107D00856BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BAB75672433107D00856BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB39E180482706367F6DD1E8 /* Pods-Mothra-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DCBW8CKASN;
+				INFOPLIST_FILE = "$(SRCROOT)/Mothra-iOS/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emucoo.mothra.Mothra-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BAB75682433107D00856BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9151CEF42E4C69A3673ADF9F /* Pods-Mothra-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DCBW8CKASN;
+				INFOPLIST_FILE = "$(SRCROOT)/Mothra-iOS/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emucoo.mothra.Mothra-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BAB754D2433107700856BBC /* Build configuration list for PBXProject "Mothra-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BAB75642433107D00856BBC /* Debug */,
+				5BAB75652433107D00856BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BAB75662433107D00856BBC /* Build configuration list for PBXNativeTarget "Mothra-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BAB75672433107D00856BBC /* Debug */,
+				5BAB75682433107D00856BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BAB754A2433107700856BBC /* Project object */;
+}
