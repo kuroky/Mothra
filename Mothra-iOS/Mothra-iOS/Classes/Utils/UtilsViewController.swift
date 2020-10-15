@@ -13,7 +13,8 @@ class UtilsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.view.backgroundColor = .white
         let white = UIColor.init(hex: "1234")
         
     }

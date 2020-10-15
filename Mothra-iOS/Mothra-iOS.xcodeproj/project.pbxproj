@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B905D6324344A1800701A3B /* omemucoonet.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5B905D6124344A1800701A3B /* omemucoonet.cer */; };
 		5B905D6424344A1800701A3B /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B905D6224344A1800701A3B /* NetworkViewController.swift */; };
 		5B905D6C243496A700701A3B /* BaseFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B905D6B243496A700701A3B /* BaseFetcher.swift */; };
 		5B905D6E24349C5D00701A3B /* FetcheMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B905D6D24349C5D00701A3B /* FetcheMethod.swift */; };
@@ -33,7 +32,6 @@
 
 /* Begin PBXFileReference section */
 		065BE644F2DA7BD871488C1F /* Pods_Mothra_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mothra_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B905D6124344A1800701A3B /* omemucoonet.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = omemucoonet.cer; sourceTree = "<group>"; };
 		5B905D6224344A1800701A3B /* NetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		5B905D6B243496A700701A3B /* BaseFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFetcher.swift; sourceTree = "<group>"; };
 		5B905D6D24349C5D00701A3B /* FetcheMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetcheMethod.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 		5B905D6024344A1800701A3B /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				5B905D6124344A1800701A3B /* omemucoonet.cer */,
 				5B905D6224344A1800701A3B /* NetworkViewController.swift */,
 			);
 			name = Network;
@@ -284,7 +281,6 @@
 				5BAB75622433107D00856BBC /* LaunchScreen.storyboard in Resources */,
 				5BAB75D6243342D700856BBC /* BoardViewController.xib in Resources */,
 				5BAB75DB243342D700856BBC /* ImageViewController.xib in Resources */,
-				5B905D6324344A1800701A3B /* omemucoonet.cer in Resources */,
 				5BAB755F2433107D00856BBC /* Assets.xcassets in Resources */,
 				5B905D7024349FB800701A3B /* Default-568h@2x.png in Resources */,
 			);
